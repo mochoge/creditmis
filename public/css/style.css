@@ -1,0 +1,71 @@
+.body {
+  background-color: rgb(96, 147, 199) !important;
+}
+
+@media (min-width: 576px) {
+
+  .container-sm,
+  .container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 100% !important;
+  }
+}
+
+.font-bold {
+  font-weight: bold !important;
+  font-size: 1em !important;
+}
+
+p .stats {
+  font-size: 18px;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.32rem;
+  padding-bottom: 0.32rem;
+  margin-right: 1rem;
+  font-size: 1.875rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.card-bg {
+  background-color:#75b3e75c;
+}
