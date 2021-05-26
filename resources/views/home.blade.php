@@ -5,7 +5,13 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card rounded-3 bg-light border-0 bg-transparent">
-                <div class="card-header bg-transparent">{{ __('Dashboard') }}</div>
+                <div class="card-header bg-transparent">
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item active" aria-current="page">  {{ __('Dashboard') }}</li>
+                        </ol>
+                    </nav>
+                </div>
 
                 <div class="card-body" style="background-color: #75b3e717;">
                     @if (session('status'))
@@ -93,8 +99,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="card rounded-3 bg-light shadow">
-                                <div class="card-header bg-success text-white">
+                            <div class="card rounded-3 shadow">
+                                <div class="card-header bg-primary bg-gradient text-white">
                                     <span class="text-uppercase font-bold">{{ __("Active Loan Applications") }}</span>
                                 </div>
                                 <div class="card-body" style="background-color: #75b3e717;">
@@ -139,7 +145,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="card shadow">
-                                <div class="card-header bg-primary text-white">
+                                <div class="card-header bg-primary bg-gradient text-white">
                                     <span class="text-uppercase font-bold">{{ __("Pending Loan Applications") }}</span>
                                 </div>
                                 <div class="card-body" style="background-color: #75b3e717;">
@@ -185,8 +191,8 @@
                     </div>
                     <div class="row mt-4">
                         <div class="col-md-12">
-                            <div class="card rounded-3 bg-light shadow">
-                                <div class="card-header bg-danger text-white">
+                            <div class="card rounded-3 shadow">
+                                <div class="card-header bg-primary bg-gradient text-white">
                                     <span class="text-uppercase font-bold">{{ __("Overdue Loans")}}</span>
                                 </div>
                                 <div class="card-body" style="background-color: #75b3e717;">
