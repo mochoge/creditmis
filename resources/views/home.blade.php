@@ -7,7 +7,7 @@
             <div class="card rounded-3 bg-light border-0 bg-transparent">
                 <div class="card-header bg-transparent">{{ __('Dashboard') }}</div>
 
-                <div class="card-body" style="background-color: #75b3e75c;">
+                <div class="card-body" style="background-color: #75b3e717;">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
@@ -21,7 +21,7 @@
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="card rounded-3 bg-light shadow">
-                                        <div class="card-body d-flex justify-content-between" style="background-color: #75b3e75c;">
+                                        <div class="card-body d-flex justify-content-between" style="background-color: #75b3e717;">
                                             <div class="d-flex flex-column">
                                                 <p class="font-bold">{{ __("Active Loan Applications") }}</p>
                                                 <p class="stats" style="font-size: 18px; font-weight: bold">{{ __('Stat 1') }}</p>
@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="card rounded-3 bg-light shadow">
-                                        <div class="card-body d-flex justify-content-between" style="background-color: #75b3e75c;">
+                                        <div class="card-body d-flex justify-content-between" style="background-color: #75b3e717;">
                                             <div class="d-flex flex-column">
                                                 <p class="font-bold">{{ __("Pending Loan Applications") }}</p>
                                                 <p class="stats" style="font-size: 18px; font-weight: bold">{{ __('Stat 1') }}</p>
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="card rounded-3 bg-light shadow">
-                                        <div class="card-body d-flex justify-content-between" style="background-color: #75b3e75c;">
+                                        <div class="card-body d-flex justify-content-between" style="background-color: #75b3e717;">
                                             <div class="d-flex flex-column">
                                                 <p class="font-bold">{{ __("Overdue Loan Applications") }}</p>
                                                 <p class="stats" style="font-size: 18px; font-weight: bold">{{ __('Stat 1') }}</p>
@@ -73,7 +73,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="card rounded-3 bg-light shadow">
-                                        <div class="card-body d-flex justify-content-between" style="background-color: #75b3e75c;">
+                                        <div class="card-body d-flex justify-content-between" style="background-color: #75b3e717;">
                                             <div class="d-flex flex-column">
                                                 <p class="font-bold">{{ __("Customers") }}</p>
                                                 <p class="stats" style="font-size: 18px; font-weight: bold">{{ __('Stat 1') }}</p>
@@ -97,7 +97,7 @@
                                 <div class="card-header bg-success text-white">
                                     <span class="text-uppercase font-bold">{{ __("Active Loan Applications") }}</span>
                                 </div>
-                                <div class="card-body" style="background-color: #75b3e75c;">
+                                <div class="card-body" style="background-color: #75b3e717;">
                                     <table class="table text-center table-sm table-hover table-bordered table-striped">
                                         <thead>
                                             <tr>
@@ -142,7 +142,7 @@
                                 <div class="card-header bg-primary text-white">
                                     <span class="text-uppercase font-bold">{{ __("Pending Loan Applications") }}</span>
                                 </div>
-                                <div class="card-body" style="background-color: #75b3e75c;">
+                                <div class="card-body" style="background-color: #75b3e717;">
                                     <table class="table text-center table-sm table-hover table-bordered table-striped">
                                         <thead>
                                             <tr>
@@ -189,7 +189,7 @@
                                 <div class="card-header bg-danger text-white">
                                     <span class="text-uppercase font-bold">{{ __("Overdue Loans")}}</span>
                                 </div>
-                                <div class="card-body" style="background-color: #75b3e75c;">
+                                <div class="card-body" style="background-color: #75b3e717;">
                                     <table class="table text-center table-sm table-hover table-bordered table-striped">
                                         <thead>
                                             <tr>
