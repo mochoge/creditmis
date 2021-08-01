@@ -69,3 +69,8 @@ p .stats {
 .card-bg {
   background-color:#75b3e75c;
 }
+
+.cust-col-form{
+  padding-right: 0px !important;
+  padding-left: 10px !important;
+}

@@ -18,7 +18,142 @@
                 <div class="card-body" style="background-color: #75b3e717;">
                     <div class="row mb-4">
                         <div class="col-md-12">
-                            All Customers
+                            <div class="card rounded shadow-sm" style= "background-color: #e9ecef;">
+                                <div class="card-body">
+                                    <table class="table text-center table-sm table-hover table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-uppercase">{{ __('Test') }}</th>
+                                                <th class="text-uppercase">{{ __('Test') }}</th>
+                                                <th class="text-uppercase">{{ __('Test') }}</th>
+                                                <th class="text-uppercase">{{ __('Test') }}</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                                <td>Test</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>                                            
+                            </div>
                         </div>
                     </div>
                 </div>
